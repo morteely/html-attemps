@@ -1,0 +1,59 @@
+.letter {
+    padding-top: 50px;
+    padding-bottom: 2px;
+    background-color: #FFF;
+}
+
+.container-letter {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1374px;
+}
+
+.letter-row {
+    display: flex;
+    align-items: center;
+}
+
+.letter-citation {
+    max-width: 657px;
+    height: 164px;
+}
+
+.letter-citation-text {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.letter-citation-author {
+    display: flex;
+    align-items: center;
+    margin-top: 16.67px;
+}
+
+.letter-citation-author-avatar {
+    display: flex;
+}
+
+.letter-citation-author-naming {
+    margin-left: 25.5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.letter-citation-author-name {
+    font-weight: 500;
+}
+
+.letter-citation-author-subname {
+    font-size: 14px;
+}
+
+.letter-img {
+    display: flex;
+}
+
+.upside-down-quotes {
+     transform: rotate(180deg)/* translate(0, -50%); */
+}

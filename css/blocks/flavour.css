@@ -1,0 +1,95 @@
+.flavour {
+    background-color: #fff;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.container-flavour {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1157.69px;
+}
+
+/* .flavour-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+/* .flavour-row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+} */
+
+.flavour-title {
+    position: relative;
+    font-family: 'Asap Bold', sans-serif;
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 120%;
+}
+
+.flavour-title::after {
+    position: absolute;
+    content: '';
+    margin-top: 16.67px;
+    left: 0px;
+    height: 2px;
+    width: 100%;
+    background-color: #AD8709;
+    opacity: 0.12;
+}
+
+.flavour-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 265.3px);
+    column-gap: 168.4px;
+}
+
+.flavour-cell {
+    margin-top: 152.5px;
+}
+
+.flavour-bg-img {
+    position: relative;
+}
+
+.flavour-description {
+    position: absolute;
+    top: 174px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 147px;
+    text-align: center;
+}
+
+.flavour-description-title {
+    font-weight: 600;
+    line-height: 120%;
+    font-size: 21px;
+    text-align: center;
+}
+
+.flavour-description-text {
+    margin-top: 8.25px;
+    opacity: 0.7;
+}
+
+.flavour-description-bott {
+    display: flex;
+    margin-top: 15.42px;
+    width: 135px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flavour-description-bott-price {
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.plus-btn {
+    display: flex;
+}
+

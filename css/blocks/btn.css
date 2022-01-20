@@ -1,0 +1,42 @@
+.header-btn, a.header-btn {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 51px;
+    min-width: 183.17px;
+    background-color: #1DC22E;
+    border-radius: 6px;
+    font-weight: 500;
+    color: #fff;
+    padding-left: 31.09px;
+    padding-right: 31.09px;
+    line-height: 21.6px;
+    transition: opacity 0.2s ease;
+}
+
+.header-btn:hover, a.header-btn:hover {
+    opacity: 0.8;
+    color: #FFF;
+}
+
+
+.btn, a.btn {
+    display: inline-block;
+    min-height: 60px;
+    max-width: 194px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1DC22E;
+    border-radius: 6px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 21.6px;
+    transition: opacity 0.2s ease;
+}
+
+.btn:hover, a.btn:hover {
+    opacity: 0.8;
+    color: #FFF;
+}

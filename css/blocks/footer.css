@@ -1,0 +1,55 @@
+.footer {
+    padding: 133px 0 84px;
+    background-color: #add1b0;
+}
+
+.container-footer {
+    width: 1139px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-main {
+    max-width: 212.37px;
+}
+
+.footer-main-logo {
+    width: 63px;
+    height: 24px;
+    font-family: 'Nosifer';
+    font-size: 20px;
+    line-height: 120%;
+    color: #DEAF16;
+}
+
+.footer-main-text {
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.footer-main-socials {
+    display: flex;
+    padding-top: 21px;
+}
+
+.footer-main-socials a + a{
+    padding-left: 25px;
+}
+
+.footer-icon {
+    display: flex;
+}
+
+.footer-column-title {
+    font-weight: 600;
+    padding-bottom: 18.38px;
+}
+
+.footer-column-list li + li {
+    margin-top: 9px;
+}

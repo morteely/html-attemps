@@ -1,0 +1,41 @@
+.quqlity {
+    padding-top: 92px;
+    padding-bottom: 100px;
+    background-color: #FFF;
+}
+
+.container-quqlity {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1044px;
+}
+
+.quqlity-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 264px);
+    column-gap: 126px;
+    justify-content: center;
+}
+
+.quqlity-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.quqlity-title {
+    margin-top: 10.08px;
+    font-weight: 600;
+    line-height: 120%;
+    font-size: 20px;
+}
+
+.quqlity-content {
+    text-align: center;
+    margin-top: 15.97px;
+}
+
+.quqlity-content p + p {
+    margin-top: 15.97px;
+}

@@ -1,0 +1,59 @@
+.taste {
+    padding-bottom: 54.69px;
+    background-color: #add1b0;
+}
+
+.container-taste {
+    width: 1459px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.taste-row {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.taste-content {
+    max-width: 555px;
+}
+
+.taste-title {
+    color: #191700;
+    font-family: 'Asap Bold', sans-serif;
+    line-height: 130%;
+    font-weight: 700;
+    font-size: 67px;
+}
+
+.taste-title-nosifer {
+    color: #1ACA2C;
+    font-family: 'Nosifer', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.taste-text {
+    margin-top: 15.57px;
+    max-width: 509px;
+}
+
+.taste-text p + p {
+    margin-top: 15.57px;
+}
+
+.taste-btn {
+    margin-top: 40.11px;
+    display: flex;
+}
+
+.taste-img {
+    width: 900px;
+    height: 850px;
+}
+
+.taste-img-size {
+    width: 130%;
+    height: 100%;
+}

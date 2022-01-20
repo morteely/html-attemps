@@ -1,0 +1,80 @@
+.header {
+    padding-top: 31.26px;
+    padding-bottom: 33.55px;
+    background-color: #add1b0;
+}
+
+.container-header {
+    width: 1124px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 229px;
+}
+
+.header-row:first-child {
+    position: relative;
+}
+
+.header-logo {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 63px;
+    height: 24px;
+    padding-bottom: 24.22px;
+    font-family: 'Nosifer';
+    font-size: 20px;
+    line-height: 120%;
+    color: #DEAF16;
+}
+
+.header-nav a:hover {
+    color: #657965;
+}
+
+.header-nav a {
+    transition: color 0.2s ease;
+}
+
+.header-nav {
+    /* display: inline-block; */
+    color: #1A2805;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+.header-nav ul {
+    display: inline-block;
+    color: #1A2805;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.header-nav li:first-child {
+    padding-left: 11px;
+    font-weight: 600;
+}
+
+.header-nav li + * {
+    opacity: 0.6;
+    padding-left: 50px;
+}
+
+.header-login {
+    margin-left: 60.5px;
+}
+
+.header-home-logo, a.header-home-logo {
+    margin-left: 229px;
+    align-self: center;
+}
